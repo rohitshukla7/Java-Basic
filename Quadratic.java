@@ -5,11 +5,9 @@
  */
 
 /******************************************************************************
- *  Compilation:  javac -d bin PrimeChecker.java
- *  Execution:    java -cp bin com.bridgelabz.util.PrimeChecker n
+ *  Compilation:  javac Quadratic.java
+ *  Execution:    java  Quadratic
  *  
- *  Purpose: Determines whether or not n is prime.
- *
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   09-08-2017
