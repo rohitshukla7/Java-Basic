@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac PrimeFactor.java
- *  Execution:    java PrimeFactor
+ *  Compilation:  javac -d bin com/profound/util/PrimeFactor.java
+ *  Execution:    java -cp bin com.profound.util.PrimeFactor
  * 
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -15,6 +15,7 @@
  *	7 is a prime factor
  *
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class PrimeFactor
  {

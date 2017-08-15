@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac LeapYear.java
- *  Execution:    java LeapYear n
+ *  Compilation:  javac -d bin com/profound/util/LeapYear.java
+ *  Execution:    java -cp bin com.profound.util.LeapYear n
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   09-08-2017
@@ -14,6 +14,7 @@
  *  % java LeapYear 1900
  *  1900 is not a leap year
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class LeapYear
 {

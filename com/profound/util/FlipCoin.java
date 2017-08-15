@@ -1,7 +1,7 @@
 
 /******************************************************************************
- *  Compilation:  javac FlipCoin.java
- *  Execution:    java FlipCoin
+ *  Compilation:  javac -d bin com/profound/util/FlipCoin.java
+ *  Execution:    java -cp bin com.profound.util.FlipCoin
  *
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -14,6 +14,7 @@
  *	Percentage of Heads:22%
  *	Percentage of Tails:77%
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class FlipCoin
 {

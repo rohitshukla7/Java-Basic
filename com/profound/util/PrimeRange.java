@@ -5,8 +5,8 @@
  */
 
 /******************************************************************************
- *  Compilation:  javac PrimeRange.java
- *  Execution:    java PrimeRange
+ *  Compilation:  javac -d bin com/profound/util/PrimeRange.java
+ *  Execution:    java -cp bin com.profound.util.PrimeRange
  *  
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -26,6 +26,7 @@
  *	29 is a prime number in the range of 4 and 35
  *	31 is a prime number in the range of 4 and 35
  * *****************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class PrimeRange
 {

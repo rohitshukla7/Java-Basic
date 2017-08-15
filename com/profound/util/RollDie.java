@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac RollDie.java
- *  Execution:    java RollDie
+ *  Compilation:  javac -d bin com/profound/util/RollDie.java
+ *  Execution:    java -cp bin com.profound.util.RollDie
  *
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -10,6 +10,7 @@
  *	12
  *	The number which appers most number of times is :1
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class RollDie
 { 

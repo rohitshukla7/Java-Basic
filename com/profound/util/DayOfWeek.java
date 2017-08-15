@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac DayOfWeek.java
- *  Execution:    java DayOfWeek m d y
+ *  Compilation:  javac -d bin com/profound/util/DayOfWeek.java
+ *  Execution:    java -cp bin com.profound.util.DayOfWeek m d y
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   09-08-2017
@@ -23,7 +23,7 @@
  *  6                              // Saturday
  *
  ******************************************************************************/
-
+package com.profound.util;
 public class DayOfWeek 
 {
         static int month,day,year,x,y0,m0,d0;

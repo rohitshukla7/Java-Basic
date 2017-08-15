@@ -1,12 +1,13 @@
 /******************************************************************************
- *  Compilation:  javac Quadratic.java
- *  Execution:    java  Quadratic
+ *  Compilation:  javac -d bin com/profound/util/Quadratic.java
+ *  Execution:    java  -cp bin com.profound.util.Quadratic
  *  
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   09-08-2017
  *
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class Quadratic
 {

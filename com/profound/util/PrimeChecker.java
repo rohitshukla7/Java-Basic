@@ -5,12 +5,12 @@
  */
 
 /******************************************************************************
- *  Compilation:  javac -d bin PrimeChecker.java
- *  Execution:    java -cp bin com.bridgelabz.util.PrimeChecker n
+ *  Compilation:  javac -d bin com/profound/util/PrimeChecker.java
+ *  Execution:    java -cp bin com.profound.util.PrimeChecker n
  *  
  *  Purpose: Determines whether or not n is prime.
  *
- *  @author  BridgeLabz
+ *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   06-08-2017
  *
@@ -20,7 +20,7 @@
  * JAVA STYLE GUIDE - PACKAGE NAMING STYLE
  */
 
-package com.bridgelabz.util;
+package com.profound.util;
 
 /*
  * JAVA STYLE GUIDE - IMPORT STATEMENtS

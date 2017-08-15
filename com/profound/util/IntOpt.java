@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac IntOpt.java
- *  Execution:    java IntOpt 1 2 3
+ *  Compilation:  javac -d bin com/profound/util/IntOpt.java
+ *  Execution:    java -cp bin com.profound.util.IntOpt 1 2 3
  *
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -11,6 +11,7 @@
  *	c+a/b:3
  *	a%b+c:4
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class IntOpt
 { 

@@ -1,7 +1,7 @@
 
 /******************************************************************************
- *  Compilation:  javac HarmonicNumber.java
- *  Execution:    java HarmonicNumber n
+ *  Compilation:  javac -d bin com/profound/util/HarmonicNumber.java
+ *  Execution:    java -cp bin com.profound.util.HarmonicNumber n
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   06-08-2017
@@ -15,7 +15,8 @@
  *  9.787606036044348
  *
  ******************************************************************************/
-
+package com.profound.util;
+import java.util.Scanner;
 public class HarmonicNumber
  { 
     public static void main(String[] args)

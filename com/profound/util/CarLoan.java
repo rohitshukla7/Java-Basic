@@ -5,13 +5,14 @@
  */
 
 /******************************************************************************
- *  Compilation:  javac CarLoan.java
- *  Execution:    java CarLoan P Y R
+ *  Compilation:  javac -d bin com/profound/util/CarLoan.java
+ *  Execution:    java -cp bin com.profound.util.CarLoan P Y R
  *
  *  @author  Rohit Shukla
  *  @version 1.0
  *  @since   06-08-2017
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class CarLoan
 {

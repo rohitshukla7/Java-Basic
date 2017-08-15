@@ -5,8 +5,8 @@
  */
 
 /******************************************************************************
- *  Compilation:  javac PowerOf2.java
- *  Execution:    java PowerOf2 6
+ *  Compilation:  javac -d bin com/profound/util/PowerOf2.java
+ *  Execution:    java -cp bin com.profound.util.PowerOf2 6
  *
  *  @author  Rohit Shukla
  *  @version 1.0
@@ -20,6 +20,7 @@
  *	32.0
  *	64.0
  ******************************************************************************/
+package com.profound.util;
 import java.util.Scanner;
 public class PowerOf2
 {
