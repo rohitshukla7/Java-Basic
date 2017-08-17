@@ -10,16 +10,14 @@ import java.util.Scanner;
 public class Binary 
 { 
     static int decimalNumber;
-    //temp count lenght of division on  number
-    int temp=0;
-    int i=0;
+    static int temp=0;          //temp count lenght of division on  number
+    static int i=0;
     public static void main(String[] args) 
     {
-        Scanner in=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("Enter decimal number:");
-        decimalNumber=in.nextInt();
-        //array to store bit value
-        int array[]=new int[10];
+        decimalNumber=sc.nextInt();
+        int array[]=new int[10];          //array to store bit value
         //decomposing number
         while(decimalNumber>0)
         {
@@ -28,8 +26,7 @@ public class Binary
             temp++;
             i++;
         }
-        //displaying decimal number to binary
-       for(i=temp-1;i>=0;i--)
+       for(i=temp-1;i>=0;i--)         //displaying the elements of array in reverse order 
        {
            System.out.print(array[i]);
        }

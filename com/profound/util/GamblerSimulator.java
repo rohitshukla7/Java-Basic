@@ -29,7 +29,7 @@ public class GamblerSimulator
 		trials=Integer.parseInt(args[2]);
 		System.out.println("Stake:"+stake+" , "+"Goal:"+goal+" , "+"Number of Trial:"+trials);
 		//running the loop until it reaches the number of trials
-		for(int i=0;i<=trials;i++)
+		for(int i=1;i<=trials;i++)
 		{
 			cash=stake;
 			while(cash>0 && cash<goal)

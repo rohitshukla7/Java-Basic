@@ -16,22 +16,14 @@
  ******************************************************************************/
 package com.profound.util;
 import java.util.Scanner;
-public class LeapYear
-{
+public class LeapYear{
 		static int year;
-	public static void main(String [] args)
-	{
+	public static void main(String [] args){
 		//Taking the year input as command line argument
 		year=Integer.parseInt(args[0]);
-
 		if((year%400==0) || ((year%4==0) && (year%100!=0)))
-		{
 			System.out.println(year+" is a leap year");
-		}
 		else
-		{
 			System.out.println(year+" is not a leap year");
 		}
-		
-	}
 }

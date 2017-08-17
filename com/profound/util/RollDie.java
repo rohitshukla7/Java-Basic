@@ -49,7 +49,7 @@ public class RollDie
 		greatest=arr[0];
 		for(int i=0;i<arr.length;i++)
 		{
-			if(arr[i]>greatest);
+			if(arr[i]>greatest)
 			greatest=arr[i];			
 		}
 		System.out.println("The number which appers most number of times is :"+greatest);
